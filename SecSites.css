@@ -1,0 +1,44 @@
+body {
+    background-color: black;
+    color: aliceblue;
+}
+header {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    background-color: gray;
+    border-radius: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: black;
+    text-align: center;
+    padding-bottom: 20px;
+    margin: 0;
+}
+h1 {
+    width: 400px;
+}
+.display1 {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 100%;
+    column-gap: 30px;
+}
+main {
+    margin-left: 0;
+    width: 400px;
+    display: flex;
+    margin-top: 20px;
+    gap: 20px 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+main div {
+    width: 100px;
+    height: 90px;
+    align-content: center;
+    text-align: center;
+    background-color: gray;
+    border-radius: 12px;
+}
